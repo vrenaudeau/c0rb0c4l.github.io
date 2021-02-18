@@ -1,6 +1,14 @@
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 
+}
+
+h2, h3 {
+    text-align: center;
+    color : white;
 }
 
 table, tr, td {
@@ -10,10 +18,15 @@ table, tr, td {
     border-spacing: 10px;
     padding: 5px;
     height: 40px;
+    align-self: center;
 }
 
 td {
     width: 40px;
+}
+
+.app-center-button{
+    align-self: center;
 }
 
 .app-green {
