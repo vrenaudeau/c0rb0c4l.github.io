@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+
+}
+
+table, tr, td {
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-spacing: 10px;
+    padding: 5px;
+    height: 40px;
+}
+
+td {
+    width: 40px;
+}
+
+.app-green {
+    background-color: green;
+}
+
+.app-red {
+    background-color: red;
+}
