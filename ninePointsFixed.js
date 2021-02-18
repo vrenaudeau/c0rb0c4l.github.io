@@ -24,8 +24,9 @@ function generateGrid() {
 
 
 // function used to assign to each cell one of two attributes which is randomly chosen based on the odd/even nature of a random integer)
-// this attribute will be used to color the cell. The function based on the onlick event is also generated within these instructions.
+// this attribute will be used to color the cell. The function triggered by the onlick event is also generated within these instructions.
 function initializeCells() {
+    
     for (let i = 1; i <= totalRows; i++) {
         for (let j = 1; j <= totalColumns; j++) {
             let rand = parseInt(Math.random() * 10);
@@ -181,4 +182,4 @@ function handleClick(element) {
     }
 }
 
-// (c) C0RB0C4L
+// by C0RB0C4L
