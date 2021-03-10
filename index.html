@@ -3,21 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Nine Points</title>
-    <link rel="stylesheet" type="text/css" href="ninePoints.css">
+    <title>The green squares</title>
+    <link rel="stylesheet" type="text/css" href="greenSquares.css">
 </head>
 
 <body>
 
-    <h2>Nine Dots</h2>
-    <h3>Pour gagner, cliquer sur les cases jusqu'à colorer toute la grille uniformément.</h3>
-    <h4>N'hésitez pas à re-générer une nouvelle grille pour recommencer.</h4>
+<h2>The green squares !</h2>
+<h3>Pour gagner, Vous devez faire en sorte que la grille soit uniformément colorée en vert.</h3>
+<h3>Générez une grille de la taille souhaitée et bon courage :).</h3>
 
-    <table id="js-generate-grid"></table>
-    <div class="app-center-button">
-        <button onclick="initializeCells()">Initialiser les cases</button>
-    </div>
-    <script src="ninePointsFixed.js"></script>
+<h2 onchange="handleScoreChange()">
+    <div id="js-score-size">Score</div> <div id="js-display-score"></div>
+</h2>
+
+<div class="app-select-size">
+
+    <div id="js-select-size" > Taille de la grille : </div>
+</div>
+
+<table id="js-generate-grid"></table>
+
+<script src="greenSquares.js"></script>
 
 </body>
 
