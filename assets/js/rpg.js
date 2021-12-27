@@ -1,8 +1,8 @@
-import { Player } from '/assets/js/player.js';
-import { Monster } from '/assets/js/monster.js';
-import { Item } from '/assets/js/item.js';
-import { bestiary } from '/assets/js/tables.js';
-import { items } from '/assets/js/tables.js';
+import { Player } from './rpg_player.js';
+import { Monster } from './rpg_monster.js';
+import { Item } from './rpg_item.js';
+import { bestiary } from './rpg_tables.js';
+import { items } from './rpg_tables.js';
 
 const playerNameDisplay = document.getElementById('js-player-name');
 const playerLifeDisplay = document.getElementById('js-lifebar-value');
