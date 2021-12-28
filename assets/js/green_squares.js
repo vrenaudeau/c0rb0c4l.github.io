@@ -1,3 +1,5 @@
+'use strict';
+
 // WARNING, this script doesn't work for a grid size beyond 9x9, due to the instructions used to find the ID.
 // I'll address this issue later.
 

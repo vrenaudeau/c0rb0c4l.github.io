@@ -1,3 +1,5 @@
+'use strict';
+
 import { Player } from './rpg_player.js';
 import { Monster } from './rpg_monster.js';
 import { Item } from './rpg_item.js';

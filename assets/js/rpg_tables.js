@@ -1,3 +1,5 @@
+'use strict';
+
 console.log('tables.js loaded');
 
 export const items = [
